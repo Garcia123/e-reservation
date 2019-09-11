@@ -58,4 +58,8 @@ public class ClienteService {
     public List<Cliente> findByApellidoCli(String apellidoCli){
         return this.clienteRepository.findByApellidoCli(apellidoCli);
     }
+
+    public List<Cliente> findAll(){
+        return this.clienteRepository.findAll();
+    }
 }
